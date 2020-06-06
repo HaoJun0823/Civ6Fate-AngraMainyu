@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Angra_Mainyu_Base_Text_Config -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 6/6/2020 9:42:10 AM -->
+<GameData>
+
+	<BaseGameText>
+		<Row Tag="LOC_LEADER_FHA_ANGRA_MAINYU_NAME" >
+			<Text>Angra Mainyu</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_NAME" >
+			<Text>Verg Avesta</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_DESCRIPTION" >
+			<Text>When a unit is attacked, it bounces back 50% of its damage.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER_NAME" >
+			<Text>The last piece</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER_DESCRIPTION" >
+			<Text>?????</Text>
+		</Row>
+
+
+	</BaseGameText>
+
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_FHA_ANGRA_MAINYU_NAME" Language="zh_Hans_CN" >
+			<Text>安哥拉·曼纽</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_NAME" Language="zh_Hans_CN" >
+			<Text>万象之伪誉抄</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_DESCRIPTION" Language="zh_Hans_CN" >
+			<Text>单位受到攻击时反弹对方50%造成的伤害。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER_NAME" Language="zh_Hans_CN" >
+			<Text>最后的碎片</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER_DESCRIPTION" Language="zh_Hans_CN" >
+			<Text>?????</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_FHA_ANGRA_MAINYU_NAME" Language="zh_Hant_HK" >
+			<Text>安哥拉·曼紐</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_NAME" Language="zh_Hant_HK" >
+			<Text>萬象之偽譽抄</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_DESCRIPTION" Language="zh_Hant_HK" >
+			<Text>單位受到攻擊時反彈對方50%造成的傷害。 </Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER_NAME" Language="zh_Hant_HK" >
+			<Text>最後的碎片</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER_DESCRIPTION" Language="zh_Hant_HK" >
+			<Text>?????</Text>
+		</Row>
+
+
+	</LocalizedText>
+
+
+</GameData>

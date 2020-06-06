@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Fate Hollow Ataraxia - Angra Mainyu</Name>
+    <Guid>59939fc9-e392-4308-a2dc-94b5ecb72fff</Guid>
+    <ProjectGuid>9ef5e0bd-97d9-4b5b-b70f-cfd76b6f228d</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Angra Mainyu</Teaser>
+    <Description>Support Simplified Chinese, Traditional Chinese and English.
+The Persian expansion is required.
+Github:https://github.com/HaoJun0823/Civ6Fate-AngraMainyu
+Thank to:https://fategrandorder.fandom.com/</Description>
+    <Authors>HaoJun0823</Authors>
+    <SpecialThanks>All players, modders and TYPE-MOON.</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+  <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Fate Hollow Ataraxia - Angra Mainyu</AssemblyName>
+    <RootNamespace>Fate Hollow Ataraxia - Angra Mainyu</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="AngraData"><File>Config/Angra_Mainyu_Config.xml</File></UpdateDatabase><UpdateIcons id="AngraIcon"><File>Data/Angra_Mainyu_Icons.xml</File></UpdateIcons><UpdateArt id="AngraArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="AngraColor"><File>Data/Angra_Mainyu_Colors.xml</File></UpdateColors><UpdateText id="AngraText"><File>Localization/Angra_Mainyu_Base_Text_Config.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AngraData"><File>Data/Angra_Mainyu_Leader.xml</File><File>Data/Angra_Mainyu_Traits.sql</File></UpdateDatabase><UpdateArt id="AngraArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="AngraText"><File>Localization/Angra_Mainyu_Base_Text.xml</File><File>Localization/Angra_Mainyu_Base_Text_Config.xml</File></UpdateText><UpdateIcons id="AngraIcon"><File>Data/Angra_Mainyu_Icons.xml</File></UpdateIcons><UpdateColors id="AngraColor"><File>Data/Angra_Mainyu_Colors.xml</File></UpdateColors><AddGameplayScripts id="AngraLua"><File>Data/Angra_Mainyu_Lua.lua</File></AddGameplayScripts><UpdateLogitechARX id="AngraARX"><File>Data/ARX/Civ_LEADER_FHA_ANGRA_MAINYU.png</File></UpdateLogitechARX></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_FHA_ANGRA_MAINYU,Players:Expansion1_Players::LEADER_FHA_ANGRA_MAINYU,Players:Expansion2_Players::LEADER_FHA_ANGRA_MAINYU</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Fate Hollow Ataraxia - Angra Mainyu.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Config" />
+    <Folder Include="Data\ARX" />
+    <Folder Include="Localization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Angra_Mainyu_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Angra_Mainyu_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Angra_Mainyu_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Angra_Mainyu_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Angra_Mainyu_Lua.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Angra_Mainyu_Traits.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\ARX\Civ_LEADER_FHA_ANGRA_MAINYU.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Angra_Mainyu_Base_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Angra_Mainyu_Base_Text_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

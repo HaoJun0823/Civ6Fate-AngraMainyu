@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Angra_Mainyu_Icons -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 6/6/2020 9:16:34 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_256.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_80.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_64.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_55.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_50.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_48.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_45.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_32.dds"/>
+	</IconTextureAtlases>
+
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_FHA_ANGRA_MAINYU" Atlas="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU" index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_FLOWERS_256.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_FLOWERS_80.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_FLOWERS_64.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_FLOWERS_55.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_FLOWERS_50.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_FLOWERS_48.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_FLOWERS_45.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FHA_ANGRA_MAINYU_FLOWERS_32.dds"/>
+	</IconTextureAtlases>
+
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_FHA_ANGRA_MAINYU_FLOWER" Atlas="ATLAS_LEADER_LEADER_FHA_ANGRA_MAINYU_FLOWERS" index="0"/>
+	</IconDefinitions>
+	
+	
+</GameData>

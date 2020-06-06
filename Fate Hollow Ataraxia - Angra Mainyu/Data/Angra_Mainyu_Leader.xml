@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Angra_Mainyu_Leader -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 6/6/2020 9:10:02 AM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_FHA_ANGRA_MAINYU" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_AGENDA_FHA_ANGRA_MAINYU" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_FHA_ANGRA_MAINYU" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_FHA_ANGRA_MAINYU" Name="LOC_LEADER_FHA_ANGRA_MAINYU_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_FHA_ANGRA_MAINYU" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_FHA_ANGRA_MAINYU_QUOTE"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_FHA_ANGRA_MAINYU" Name="LOC_TRAIT_AGENDA_FHA_ANGRA_MAINYU_NAME" Description="LOC_TRAIT_AGENDA_FHA_ANGRA_MAINYU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_FHA_ANGRA_MAINYU" Name="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_NAME" Description="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER" Name="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER_NAME" Description="LOC_TRAIT_LEADER_FHA_ANGRA_MAINYU_FLOWER_DESCRIPTION"/>
+	</Traits>
+
+	<CivilizationLeaders>
+		<!-- Game Text-->
+		<Row CivilizationType="CIVILIZATION_PERSIA" LeaderType="LEADER_FHA_ANGRA_MAINYU" CapitalName="LOC_CITY_NAME_FHA_ANGRA_MAINYU_CAPITAL"/>
+	</CivilizationLeaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_FHA_ANGRA_MAINYU" TraitType="TRAIT_LEADER_FHA_ANGRA_MAINYU"/>
+	</LeaderTraits>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_FHA_ANGRA_MAINYU" Name="LOC_AGENDA_FHA_ANGRA_MAINYU_NAME" Description="LOC_AGENDA_FHA_ANGRA_MAINYU_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_FHA_ANGRA_MAINYU" AgendaType="AGENDA_FHA_ANGRA_MAINYU"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_FHA_ANGRA_MAINYU" TraitType="TRAIT_AGENDA_FHA_ANGRA_MAINYU"/>
+	</AgendaTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_FHA_ANGRA_MAINYU" ModifierId="AGENDA_FHA_ANGRA_MAINYU_PASSTIVE"/>
+		<Row TraitType="TRAIT_AGENDA_FHA_ANGRA_MAINYU" ModifierId="AGENDA_FHA_ANGRA_MAINYU_POSITIVE"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_PASSTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENT_SET_ANGRA_MAINYU_NOT_WAR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_POSITIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENT_SET_ANGRA_MAINYU_WAR</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_PASSTIVE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>16</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_PASSTIVE</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_PASSTIVE</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-4</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_PASSTIVE</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_PASSTIVE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_FHA_ANGRA_MAINYU_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_PASSTIVE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_FHA_ANGRA_MAINYU_ANY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_POSITIVE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-64</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_POSITIVE</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_POSITIVE</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_POSITIVE</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_POSITIVE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_FHA_ANGRA_MAINYU_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FHA_ANGRA_MAINYU_POSITIVE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_FHA_ANGRA_MAINYU_ANY</Value>
+		</Row>
+	</ModifierArguments>
+
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_FHA_ANGRA_MAINYU" ReligionType="RELIGION_ZOROASTRIANISM"/>
+	</FavoredReligions>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_FHA_ANGRA_MAINYU" ForegroundImage="LEADER_FHA_ANGRA_MAINYU_NEUTRAL_2" BackgroundImage="LEADER_FHA_ANGRA_MAINYU_BACKGROUND_LOAD" PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_FHA_ANGRA_MAINYU_HARE"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_FHA_ANGRA_MAINYU" BackgroundImage="LEADER_FHA_ANGRA_MAINYU_BACKGROUND"/>
+	</DiplomacyInfo> 
+	
+</GameData>
